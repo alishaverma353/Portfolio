@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alisha Verma — Portfolio</title>
+    <meta name="description" content="Alisha Verma • Data Science Engineer • AI, ML, Full‑stack Development">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#top">Alisha<span>Verma</span></a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" aria-label="Toggle navigation"><i class="ri-menu-3-line"></i></button>
+                <button class="theme-toggle" aria-label="Toggle theme"><i class="ri-sun-line"></i></button>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <!-- Hero -->
+        <section class="section hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <div class="location-pill"><i class="ri-map-pin-line"></i> Kanpur, Uttar Pradesh</div>
+                    <h1 class="hero-title" id="animatedTitle">Hi, I'm <span>Alisha</span></h1>
+                    <div class="typing" id="typing" data-words='["Data Science Engineer","ML Enthusiast","Full‑stack Developer"]'></div>
+                    <p class="hero-sub"><p class="hero-sub">Software Development Engineer in the making, driven by a passion for coding, system design, and innovative problem-solving. Skilled in full-stack development, data structures, and algorithms, currently pursuing BTech in Computer Science.</p>
+                </p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="#projects"><i class="ri-rocket-line"></i> View Projects</a>
+                        <a class="btn btn-secondary" href="assets/Alisha_Verma_CV.pdf" download><i class="ri-download-2-line"></i> Download CV</a>
+                    </div>
+                    <div class="socials">
+                        <a aria-label="Email" href="mailto:vermaalisha780@gmail.com"><i class="ri-mail-line"></i></a>
+                        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/alisha-verma-48062827a/" target="_blank" rel="noreferrer"><i class="ri-linkedin-line"></i></a>
+                        <a aria-label="LeetCode" href="https://leetcode.com/u/alisha_verma/" target="_blank" rel="noreferrer"><i class="ri-code-s-slash-line"></i></a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-card gradient-border">
+                        <div class="avatar-wrap" aria-label="Animated coding girl avatar">
+                            <div class="video-avatar">
+                                <video 
+                                    id="avatarVideo" 
+                                    autoplay 
+                                    muted 
+                                    loop 
+                                    playsinline
+                                    class="avatar-video"
+                                    poster="assets/images/video-poster.jpg"
+                                >
+                                    
+                                    
+                                    <source src="assets/animated_avatar.mp4" type="video/mp4">
+                                    
+                                   
+                                    
+                                    <!-- Fallback text if no video sources are added -->
+                                    <div class="video-fallback">
+                                        <div class="fallback-content">
+                                            <i class="ri-video-line"></i>
+                                            <p>Add your video to assets/videos/</p>
+                                            <p style="font-size: 12px; margin-top: 8px; opacity: 0.7;">
+                                                Supported: MP4, WebM, OGV • Max: 10MB
+                                            </p>
+                                        </div>
+                                    </div>
+                                </video>
+                                
+                                <!-- Video controls overlay -->
+                                <div class="video-overlay">
+                                    <div class="video-controls">
+                                        <button class="video-btn play-pause" id="playPauseBtn" aria-label="Play/Pause video">
+                                            <i class="ri-pause-line"></i>
+                                        </button>
+                                        <button class="video-btn mute-btn" id="muteBtn" aria-label="Mute/Unmute video">
+                                            <i class="ri-volume-up-line"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-blob"></div>
+        </section>
+
+        <!-- About / Education -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-label">About Me</div>
+                <h2 class="section-title">Education <span>&</span> <span class="accent">Journey</span></h2>
+                <p class="section-lead">A dedicated Computer Science student specializing in Data Science, with a strong foundation in academics and a passion for innovation in AI and machine learning.</p>
+
+                <div class="timeline">
+                    <article class="card timeline-card gradient-border">
+                        <div class="timeline-meta">2022–2026</div>
+                        <h3 class="card-title">Bachelor of Technology in Computer Science</h3>
+                        <div class="card-sub">Data Science Engineering</div>
+                        <p class="card-desc">Pranveer Singh Institute of Technology</p>
+                        <div class="timeline-score">79.2%</div>
+                    </article>
+                    <article class="card timeline-card gradient-border">
+                        <div class="timeline-meta">2021–2022</div>
+                        <h3 class="card-title">Higher Secondary Education</h3>
+                        <div class="card-sub">CBSE</div>
+                        <p class="card-desc">Doon International School</p>
+                        <div class="timeline-score">81.3%</div>
+                    </article>
+                    <article class="card timeline-card gradient-border">
+                        <div class="timeline-meta">2020–2021</div>
+                        <h3 class="card-title">Secondary Education</h3>
+                        <div class="card-sub">CBSE</div>
+                        <p class="card-desc">Doon International School</p>
+                        <div class="timeline-score">85%</div>
+                    </article>
+                </div>
+
+                <div class="metrics">
+                    <div class="metric"><div class="metric-value">500+</div><div class="metric-label">LeetCode Problems</div></div>
+                    <div class="metric"><div class="metric-value">4★</div><div class="metric-label">HackerRank Rating</div></div>
+                    <div class="metric"><div class="metric-value">19K+</div><div class="metric-label">Hackos Earned</div></div>
+                    <div class="metric"><div class="metric-value">39</div><div class="metric-label">Salesforce Badges</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-label">My Work</div>
+                <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+                <p class="section-lead">A showcase of innovative projects combining AI, machine learning, and full‑stack development to solve real‑world problems.</p>
+
+                <div class="card-grid">
+                    <article class="card project-card gradient-top-cyan">
+                        <div class="card-icon"><i class="ri-flight-takeoff-line"></i></div>
+                        <h3 class="card-title">Discover Beyond</h3>
+                        <p class="card-desc">AI‑powered travel recommendation system with 95% accuracy using machine learning and comprehensive user interest analysis.</p>
+                        <ul class="bullets">
+                            <li>Personalized suggestions</li>
+                            <li>Responsive UI</li>
+                            <li>Enhanced engagement</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Machine Learning</span><span class="chip">MongoDB</span><span class="chip">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://discoverbeyond.netlify.app/" aria-label="Project demo" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card gradient-top-pink">
+                        <div class="card-icon"><i class="ri-brain-line"></i></div>
+                        <h3 class="card-title">AI Mock Interview Platform</h3>
+                        <p class="card-desc">A distributed AI‑powered mock interview platform using voice APIs, handling asynchronous calls with real‑time question generation.</p>
+                        <ul class="bullets">
+                            <li>Real‑time voice API integration</li>
+                            <li>Role‑specific question sets</li>
+                            <li>Intelligent follow‑ups</li>
+                            <li>Speech synthesis and NLP</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">Next.js</span><span class="chip">OpenAI</span><span class="chip">Tailwind CSS</span><span class="chip">Framer Motion</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alishaverma353/PrepWise" aria-label="Project demo" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card gradient-top-purple">
+                        <div class="card-icon"><i class="ri-mic-line"></i></div>
+                        <h3 class="card-title">Echolish – Personal Voice Agent</h3>
+                        <p class="card-desc">Intelligent, privacy-first personal voice assistant with speech recognition, LLaMA 3 integration via Ollama, and customizable skill modules.</p>
+                        <ul class="bullets">
+                            <li>Speech-to-Text using Whisper/Vosk</li>
+                            <li>LLaMA 3 natural language understanding</li>
+                            <li>Text-to-Speech with voice synthesis</li>
+                            <li>100% privacy-first, offline-capable</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">Python</span><span class="chip">LLaMA 3</span><span class="chip">Ollama</span><span class="chip">Speech Recognition</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alishaverma353/Echolish-AI" aria-label="Project demo" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card gradient-top-green">
+                        <div class="card-icon"><i class="ri-camera-lens-line"></i></div>
+                        <h3 class="card-title">Face Recognition Attendance</h3>
+                        <p class="card-desc">Advanced attendance system using computer vision with object‑oriented design patterns for modularity and real‑time processing.</p>
+                        <ul class="bullets">
+                            <li>95% recognition accuracy</li>
+                            <li>Real‑time face matching</li>
+                            <li>Streaming optimization</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">Python</span><span class="chip">OpenCV</span><span class="chip">Machine Learning</span><span class="chip">Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alishaverma353/Face-Attendance-Recorder-FAR-" aria-label="Project demo" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card gradient-top-orange">
+                        <div class="card-icon"><i class="ri-shopping-bag-line"></i></div>
+                        <h3 class="card-title">Myntra Clone (Frontend UI)</h3>
+                        <p class="card-desc">A responsive front-end clone of the Myntra e-commerce website built using HTML, CSS, and JavaScript with modern design patterns.</p>
+                        <ul class="bullets">
+                            <li>Responsive navigation bar</li>
+                            <li>Search bar and category links</li>
+                            <li>Product grid layout with hover effects</li>
+                            <li>Fully responsive for mobile and desktop</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://myntra-clone-fronted-ui.vercel.app/" aria-label="Project demo" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card gradient-top-blue">
+                        <div class="card-icon"><i class="ri-home-line"></i></div>
+                        <h3 class="card-title">House Price Prediction</h3>
+                        <p class="card-desc">Implemented an ensemble machine learning model to estimate house prices with 85% accuracy using comprehensive housing datasets.</p>
+                        <ul class="bullets">
+                            <li>85% prediction accuracy</li>
+                            <li>Large housing dataset processing</li>
+                            <li>Location, size, and condition features</li>
+                            <li>Machine learning model deployment</li>
+                        </ul>
+                        <div class="chips">
+                            <span class="chip">Python</span><span class="chip">Scikit-learn</span><span class="chip">Pandas</span><span class="chip">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alishaverma353/bostonhousepricing" aria-label="Project demo" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-label">Technical Expertise</div>
+                <h2 class="section-title">Skills <span>&</span> <span class="accent">Technologies</span></h2>
+
+                <div class="skills-grid">
+                    <article class="card skills-card gradient-top-blue">
+                        <h3 class="card-title">Programming Languages</h3>
+                        <div class="chips">
+                            <span class="chip">C++</span><span class="chip">C</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">SQL</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-green">
+                        <h3 class="card-title">Web Technologies</h3>
+                        <div class="chips">
+                            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Next.js</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-purple">
+                        <h3 class="card-title">Databases</h3>
+                        <div class="chips">
+                            <span class="chip">MySQL</span><span class="chip">Oracle</span><span class="chip">MongoDB</span><span class="chip">Firebase</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-orange">
+                        <h3 class="card-title">Tools & Frameworks</h3>
+                        <div class="chips">
+                            <span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">TensorFlow</span><span class="chip">PyTorch</span><span class="chip">Scikit‑learn</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-yellow">
+                        <h3 class="card-title">Development Tools</h3>
+                        <div class="chips">
+                            <span class="chip">Jupyter Notebook</span><span class="chip">VS Code</span><span class="chip">Git</span><span class="chip">Docker</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-pink">
+                        <h3 class="card-title">Core Subjects</h3>
+                        <div class="chips">
+                            <span class="chip">Data Structures</span><span class="chip">Algorithms</span><span class="chip">DBMS</span><span class="chip">ML</span><span class="chip">Computer Networks</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-cyan">
+                        <h3 class="card-title">AI & Machine Learning</h3>
+                        <div class="chips">
+                            <span class="chip">Neural Networks</span><span class="chip">Deep Learning</span><span class="chip">Computer Vision</span><span class="chip">NLP</span><span class="chip">Data Analysis</span>
+                        </div>
+                    </article>
+                    <article class="card skills-card gradient-top-teal">
+                        <h3 class="card-title">Soft Skills</h3>
+                        <div class="chips">
+                            <span class="chip">Problem Solving</span><span class="chip">Team Collaboration</span><span class="chip">Communication</span><span class="chip">Leadership</span>
+                        </div>
+                    </article>
+                </div>
+
+
+
+                <article class="experience card gradient-border">
+                    <div class="experience-header">
+                        <h3 class="card-title">Data Science Intern</h3>
+                        <div class="experience-meta">Oasis Infobyte • Oct–Nov 2024</div>
+                    </div>
+                    <p class="card-desc">Completed a comprehensive internship focused on real‑world data science problem‑solving, applying concepts of preprocessing, visualization, and ML techniques through hands‑on project‑based learning.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certifications / Achievements -->
+        <section class="section" id="certifications">
+            <div class="container">
+                <div class="section-label">Recognition</div>
+                <h2 class="section-title">Certifications <span>&</span> <span class="accent">Achievements</span></h2>
+                <p class="section-lead">Recognized expertise across multiple platforms and technologies, demonstrating continuous learning and professional development.</p>
+
+                <div class="card-grid">
+                    <article class="card cert-card gradient-top-purple"><h3 class="card-title">Machine Learning Specialization</h3><div class="card-sub">Coursera</div><p class="card-desc">Comprehensive coverage of ML algorithms, deep learning, and practical applications.</p></article>
+                    <article class="card cert-card gradient-top-orange"><h3 class="card-title">AWS Cloud Practitioner Essentials</h3><div class="card-sub">Amazon Web Services</div><p class="card-desc">Foundational understanding of AWS cloud services and architecture principles.</p></article>
+                    <article class="card cert-card gradient-top-violet"><h3 class="card-title">Salesforce AI Champion</h3><div class="card-sub">Salesforce Agentforce</div><p class="card-desc">Excellence in AI‑driven CRM and cloud automation tools with 11,400+ points earned.</p></article>
+                </div>
+
+                <div class="card-grid small">
+                    <article class="card cert-card gradient-top-green"><h3 class="card-title">19,093 Hackos</h3><div class="card-sub">HackerRank Excellence</div><p class="card-desc">4★ in Problem Solving, 3★ in Python.</p></article>
+                    <article class="card cert-card gradient-top-pink"><h3 class="card-title">500+ Problems</h3><div class="card-sub">LeetCode Problem Solver</div><p class="card-desc">Consistent algorithmic proficiency.</p></article>
+                    <article class="card cert-card gradient-top-red"><h3 class="card-title">39 Badges</h3><div class="card-sub">Salesforce Agentblazer</div><p class="card-desc">AI‑driven CRM automation excellence.</p></article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="footer-brand">Alisha Verma</h3>
+                <p class="muted">Engineer passionate about creating intelligent solutions through AI, machine learning, and innovative technology.</p>
+                <div class="footer-loc"><i class="ri-map-pin-line"></i> Kanpur, Uttar Pradesh</div>
+                
+            </div>
+            <div>
+                <div class="footer-title">Quick Links</div>
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-title">Connect</div>
+                <div class="socials">
+                    <a aria-label="Email" href="mailto:vermaalisha780@gmail.com"><i class="ri-mail-line"></i></a>
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/alisha-verma-48062827a/" target="_blank" rel="noreferrer"><i class="ri-linkedin-line"></i></a>
+                    <a aria-label="LeetCode" href="https://leetcode.com/u/alisha_verma/" target="_blank" rel="noreferrer"><i class="ri-code-s-slash-line"></i></a>
+                </div>
+                <div class="footer-contact">+91‑9555967329 • vermaalisha780@gmail.com</div>
+                <form id="contactForm" class="contact-form" style="margin-top: 1rem; display: grid; gap: 0.6rem;">
+                    <input name="name" type="text" placeholder="Your name" required style="padding: 0.6rem 0.8rem; border-radius: 8px; border: 1px solid #334155; background: transparent; color: inherit;" />
+                    <input name="email" type="email" placeholder="Your email" required style="padding: 0.6rem 0.8rem; border-radius: 8px; border: 1px solid #334155; background: transparent; color: inherit;" />
+                    <textarea name="message" rows="3" placeholder="Your message" required style="padding: 0.6rem 0.8rem; border-radius: 8px; border: 1px solid #334155; background: transparent; color: inherit; resize: vertical;"></textarea>
+                    <button type="submit" class="btn btn-primary"><i class="ri-send-plane-2-line"></i> Send</button>
+                    <div id="contactStatus" class="muted" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@motionone/dom@latest/dist/motion.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
